@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace MasterPassport.Domain.Entities;
 
 public class TempUser : BaseEntity
@@ -14,26 +16,25 @@ public class TempUser : BaseEntity
     public string FullNameEn { get; set; } = string.Empty;
     public DateTime DateOfBirth { get; set; }
     public int GenderID { get; set; }
-    public string? PersonalImage { get; set; }
-    public string? Address { get; set; }
-    public int? CityID { get; set; }
     public string Email { get; set; } = string.Empty;
     public string MobileNumber { get; set; } = string.Empty;
     public string? AlternativeMobile { get; set; }
+    public string? Address { get; set; }
+    public int? CityID { get; set; }
+    public string? PersonalImage { get; set; }
     public DateTime RegistrationDate { get; set; }
     public bool IsApproved { get; set; }
-    public string? ApprovedBy { get; set; }
-    public DateTime? ApprovedDate { get; set; }
+    public string? RejectionReason { get; set; }
 
     // Navigation properties
     public virtual Country? Nationality { get; set; }
     public virtual Title? Title { get; set; }
     public virtual Gender? Gender { get; set; }
     public virtual City? City { get; set; }
+    public virtual TempUserCredential? TempUserCredential { get; set; }
     public virtual ICollection<TempWorkPlace> TempWorkPlaces { get; set; } = new List<TempWorkPlace>();
     public virtual ICollection<TempScientificDegree> TempScientificDegrees { get; set; } = new List<TempScientificDegree>();
     public virtual ICollection<TempUserExperienceField> TempUserExperienceFields { get; set; } = new List<TempUserExperienceField>();
     public virtual ICollection<TempUserLanguage> TempUserLanguages { get; set; } = new List<TempUserLanguage>();
     public virtual ICollection<TempUserAttachment> TempUserAttachments { get; set; } = new List<TempUserAttachment>();
-    public virtual TempUserCredential? TempUserCredential { get; set; }
 }

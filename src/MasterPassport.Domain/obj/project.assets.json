@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ubuntu/MasterPassport/src/MasterPassport.Domain/MasterPassport.Domain.csproj",
+      "projectUniqueName": "/home/ubuntu/MasterPassport_github/src/MasterPassport.Domain/MasterPassport.Domain.csproj",
       "projectName": "MasterPassport.Domain",
-      "projectPath": "/home/ubuntu/MasterPassport/src/MasterPassport.Domain/MasterPassport.Domain.csproj",
+      "projectPath": "/home/ubuntu/MasterPassport_github/src/MasterPassport.Domain/MasterPassport.Domain.csproj",
       "packagesPath": "/home/ubuntu/.nuget/packages/",
-      "outputPath": "/home/ubuntu/MasterPassport/src/MasterPassport.Domain/obj/",
+      "outputPath": "/home/ubuntu/MasterPassport_github/src/MasterPassport.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/ubuntu/.nuget/NuGet/NuGet.Config"

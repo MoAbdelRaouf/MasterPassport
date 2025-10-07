@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ubuntu/MasterPassport/src/MasterPassport.Application/MasterPassport.Application.csproj": {}
+    "/home/ubuntu/MasterPassport_github/src/MasterPassport.Application/MasterPassport.Application.csproj": {}
   },
   "projects": {
-    "/home/ubuntu/MasterPassport/src/MasterPassport.Application/MasterPassport.Application.csproj": {
+    "/home/ubuntu/MasterPassport_github/src/MasterPassport.Application/MasterPassport.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ubuntu/MasterPassport/src/MasterPassport.Application/MasterPassport.Application.csproj",
+        "projectUniqueName": "/home/ubuntu/MasterPassport_github/src/MasterPassport.Application/MasterPassport.Application.csproj",
         "projectName": "MasterPassport.Application",
-        "projectPath": "/home/ubuntu/MasterPassport/src/MasterPassport.Application/MasterPassport.Application.csproj",
+        "projectPath": "/home/ubuntu/MasterPassport_github/src/MasterPassport.Application/MasterPassport.Application.csproj",
         "packagesPath": "/home/ubuntu/.nuget/packages/",
-        "outputPath": "/home/ubuntu/MasterPassport/src/MasterPassport.Application/obj/",
+        "outputPath": "/home/ubuntu/MasterPassport_github/src/MasterPassport.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ubuntu/.nuget/NuGet/NuGet.Config"

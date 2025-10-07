@@ -80,11 +80,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ubuntu/MasterPassport/src/MasterPassport.WebAPI/MasterPassport.WebAPI.csproj",
+      "projectUniqueName": "/home/ubuntu/MasterPassport_github/src/MasterPassport.WebAPI/MasterPassport.WebAPI.csproj",
       "projectName": "MasterPassport.WebAPI",
-      "projectPath": "/home/ubuntu/MasterPassport/src/MasterPassport.WebAPI/MasterPassport.WebAPI.csproj",
+      "projectPath": "/home/ubuntu/MasterPassport_github/src/MasterPassport.WebAPI/MasterPassport.WebAPI.csproj",
       "packagesPath": "/home/ubuntu/.nuget/packages/",
-      "outputPath": "/home/ubuntu/MasterPassport/src/MasterPassport.WebAPI/obj/",
+      "outputPath": "/home/ubuntu/MasterPassport_github/src/MasterPassport.WebAPI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/ubuntu/.nuget/NuGet/NuGet.Config"

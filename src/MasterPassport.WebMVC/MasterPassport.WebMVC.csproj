@@ -2,7 +2,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MasterPassport.Application\MasterPassport.Application.csproj" />
-    <ProjectReference Include="..\MasterPassport.Infrastructure\MasterPassport.Infrastructure.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

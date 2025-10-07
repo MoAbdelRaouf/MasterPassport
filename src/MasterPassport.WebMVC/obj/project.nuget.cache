@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PJPzjZT5MIc=",
+  "dgSpecHash": "AO+eCp1VXKY=",
   "success": true,
-  "projectFilePath": "/home/ubuntu/MasterPassport/src/MasterPassport.WebMVC/MasterPassport.WebMVC.csproj",
+  "projectFilePath": "/home/ubuntu/MasterPassport_github/src/MasterPassport.WebMVC/MasterPassport.WebMVC.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
