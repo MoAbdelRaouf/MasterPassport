@@ -7,12 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.9" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.10" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\MasterPassport.Application\MasterPassport.Application.csproj" />
-    <ProjectReference Include="..\MasterPassport.Infrastructure\MasterPassport.Infrastructure.csproj" />
+    <ProjectReference Include="..\MasterPassport.WebMVC\MasterPassport.WebMVC.csproj" />
   </ItemGroup>
 
 </Project>
